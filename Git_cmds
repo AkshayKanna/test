@@ -1,0 +1,199 @@
+Cheat Sheet 
+
+1.<a>
+	The <a> tag is the anchor tag with the href attribute that creates a hyperlink to web pages or any urls.
+
+Code:
+	<a href="url">Name</a>
+
+2.<br>
+	The <br> tag elements produce a line break.
+Code:
+	<p> I am Akshay Kanna <br>
+		Knowledge is Power<br>
+	</p>	
+3.<em>
+	The <em> tag that marks the text stres like italic format.
+	The em tag can be nested.
+Code:
+	<p> I am Akshay Kanna <em> Now</em>
+
+4.<p>
+	The <p> tag is the Paragraph tag. To represents a block of texts.
+
+5.<dd>
+	The <dd> tag provides the detail descriptions.
+
+6.<dl>
+	The dl tag represents a description list. The <dt> and <dd> tags are specified inside the <dl>. The elements encloses in a group of terms.
+
+Code:
+	<dl>
+		<dt> Butter Naan</dt>
+		<dd> I like Butter Naan </dd>
+	</dl>
+
+7.<ol>
+	The ol tag represents in an ordered list.It will be printed in a numbered list.
+
+Code:
+	<ol>
+		<li> AKSHAY </li>
+		<li> KANNAN </li>
+	</ol>
+
+O/P:
+	1.AKSHAY
+	2.KANNAN
+
+8.<li>
+	The <li> tag element is used to represent in a list. It will be contined inside the <ul> or <ol>. In menus and unordered list, the items will be displayed using bullet points.
+
+9.<select>
+	The select tag provide a menu of opton. There will be given an id attribute that to enable the <label> for access purpose.The menu option will be defined in an <option> tag. The elements will be given inside the <select>.
+
+Code:
+	<label for ="fav-dog">Choose the dog </label>
+
+	<select id ="fav-dog"
+		<option value="German Sherpard">German Sherpard</option>
+		<option value="Pug">Pug</option>
+		<option value="Rotweiler">Rotweiler</option>
+	</select>
+
+10.<label>
+	The label is used to represent a caption. To associate the label with <input> element, and id attribute. The <label> <id> and name value should be similar.
+
+Code:
+	<label for="favourite-dog" >Favourite Dog</label>
+	<input type="text" name=favourite-dog id ="favourite-dog"
+
+
+11.<iframe>
+	The <iframe> tag specifies an inline frame. That is it will embed another document within the current HTML document.
+
+	Attributes:
+		allowfullscreen:
+			To activate the full screen mode just give allow="fullscreen".
+		height:
+			The height of the frame will be deafault 150px.
+		width:
+			The default width of the frame is 300px.
+		frameborder:
+			The value 1 draw the border. The value 0 remove the border.
+Code:
+	<iframe src="URL"></iframe> 
+
+12.<input>
+	The <input> tag is used to create an web based forms inorder to accept the data from the user. There are wide variety of input data.
+	
+	Types:
+		1. checkbox - A check box allowing single value to be select/ deselect.
+		2. email - A field used for editing an email address.
+		3. date - A control of entering a date.
+		4. number - A control of entering a number.
+		5. radio - Allowing a single value to be selected out of the multiple choices.
+		6. tel - A control of entering a telephone number.
+		7. text - A single text field. 
+Code:
+	<input type="text" name="name" id="name">
+	<input type="email" name="mail" id="email">
+	<input type="tel" name= "phone_num" id="tel"> 
+	<input type="date" name = "user_date" id="date">
+	<input type="radio" name="gender" value="male" checked id="gender"> Male<br>
+
+13.<button>
+	The <button> tag element represents a clickable button, which can be used in the forms or anywhere in the document.
+
+	Attribute:
+		1.type
+			The types of button possible are submit, reset and button. The button submit the form data to the server. The button reset the all the controls to their inital values.
+Code:
+	<button type="button">Submit</button>
+
+14.<html>
+	The <html> tag is the root element of the document.
+
+Code:
+	<!DOCTYPE html>
+	<html lang="en">
+		<head> </head>
+		<body> </body>
+	</html>
+
+15.<head>
+	The <head> tag element contains the readable information like metadata, title, scripits and stylesheets.
+
+16.<title> 
+	The <title> tag will display the title of the document title in the page tab or browser title bar.
+
+Code:
+	<title>AKshay Kanna </title>
+
+17.<style>
+	The <style> tag contains style information of the document and also it also contains CSS. The <style> element will be included inside the <head> or <body> of the document.
+
+	Attributes:
+		type - The attribute type wiil default set to text/css and it is optional.
+
+Code:
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<style>
+				p{
+					color:#fff;
+				}
+			</style> 
+		</head>
+		<body> </body>
+	</html>
+
+18.<strong>
+	The <strong> tag will indicate that the document/content have strong importance. It will typically render the content in bold type. The <b> tag element are the most have the same source. But <strong> element will have the greater importance while <b> is used to draw the reader attention.
+Code:
+	<p>AkshayKanna<strong>Kannan</strong></p>
+
+19.<h1>
+	The <h1> tag elements represents six levels of headings whereas <h1> is the highest tag and <h6> is the slowest tag.
+
+Code:
+	<h1>A</h1>
+	<h2>K</h2>
+	<h3>S</h3>
+	<h4>H</h4>
+	<h5>A</h5>
+	<h6>Y</h6>
+
+20.<span>
+	The <span> element is used for grouping and applying styles to inline elements. The <span> tag will be used within the inline elements whereas the <div> tag will be used in the block-level element.
+
+Code:
+	 <p>My eyes are <span style="color:black">black</span> </p>
+
+21.<table>
+	The <table> represents in tabular data. It will comprised of rows and columns of cells containing data.
+
+	Attributes:
+		1.align: The align attributes tell that the table can be algined inside the document. It can be displayed on the right, left, center.
+		2.bgcolor:
+			The attribute defines the background color of the table.
+		3.border:
+			This attribute defines in pixels.
+		4.width:
+			The attribute defines the width of the table. It can be defined in pixels or in percentage values. The percentage value will be defined in the width of the container in which the table placed.
+
+Code:
+	<table>
+		<tr>
+			<td></td>
+		</tr>
+	</table>
+
+22.<td>
+	The <td> element defines a cell of a table that contains data.
+
+23.<th>
+	The <th> element defines a cell as a header of the table. If you want to assign the heading of a table use <th> tag.
+
+ 

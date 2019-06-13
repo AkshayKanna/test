@@ -1,0 +1,185 @@
+Basic Git Commands:
+	
+1. git config
+		
+		Set or See the Configuration of the git.
+
+2. git config --global user.name [Firstname_Lastname]
+		
+		This command will set the name. To configure your user name to be used by Git.
+
+3. git config --global user.email [email_address]
+		
+		To configure your email to be used by Git, 
+
+4. git init
+		
+		Type the following at the prompt to initialize the folder as a Git repository.
+
+5. git status
+		
+		Checking your Git repository status. Checks the current status of the folder.
+
+6. git add [filename] or git add .
+
+		Add files to the staging area of your Git repository. The .(dot) will add all files in the directory will be added.
+
+7. git commit -m "Message"
+		
+		Commit the current staging area to your Git repository. Commit the changes to the git repository.
+
+8. git remote add origin [repo.URL]
+		
+		Set up your local repository to link to your online Git repository.Add the remote online repository.
+
+9. git push origin master
+		
+		Push the commits to the online repository. Push the local git repository to the origin to the master branch.
+
+10. git clone [repo.URL]
+
+		Clone an online git reposritory to your computer.
+
+11. date
+		display the date and time
+
+12. cal
+		display the calendar of the current month.
+
+	cal -m Feb 1998
+
+		It will display the Febravary month of 1998 year.
+
+13. pwd 
+		
+		To print the working directory.
+
+14. cd 
+
+		It is change the directory.
+
+15. cd ~
+		
+		It will directly go to the home directory.
+
+16. ls 
+
+		The ls command list all files in the directory.
+
+17. ls -l 
+
+		The ls -l command will display the detailed info in colums.
+
+18. ls -R
+		
+		Recursively display the subdirectories.
+
+19. ls -S
+		
+		Sort by size.
+
+20. less [filename]
+	
+		Shows the contents inside the file.
+
+21. mkdir [directory_name]
+
+		It will create a directory with specified name.
+
+22. mkdir [dir1] [dir2] [dir3]
+
+		We can also create multiple directories using the above command.
+
+23. cp file1 file2
+
+		Copy the single file to file2
+
+24. cp file1 file2 dir1
+
+		Copy the file1 and file2 into directory.
+
+25. cp -r dir1 dir2
+		
+		Copy the contents of dir1 to dir2.
+
+26. mv file1 file2
+
+		The mv command is to rename the particular file . Otherwise it will move to another dir.
+
+27. rm <item>
+
+		It will remove the item.
+
+28. rm -r <item>
+		
+		It will remove the contents of the item.
+
+29. rm -r dir1 dir2
+
+		Delete the both the file and the contents.
+
+30. wget [location]
+
+		The wget command is to command line program for the file downloading.
+
+31. unzip [file_name]
+
+		It will unzip the file.
+
+32. head file.txt
+
+		It will displays the top 10 in the file. It is a default option.
+
+33. head -n 100 file.txt
+
+		It will display the top 100 in the file.
+
+34. tail file.txt
+
+		It will display bottom 10 of the file.
+
+35. tail -n 5 file.txt
+
+		It will diplay the bottom 5 of the file.
+
+36. wc file.txt
+		
+		It will display the number of lines, words, bytes contained in the files.
+
+37. wc -l 
+
+		It will display the number of lines in the file.
+
+38. wc -w 
+
+		Display the number of words
+
+39. wc - m 
+
+		Display the number of character.
+
+40. grep [search_word] file.txt
+
+		Display the serach_word in the file.txt
+
+41. grep [search_word] file_*
+
+		Display the search word using wildcards .
+
+42. cat file.txt
+		
+		Display the content in the file same as the less command.
+
+43. sort file.txt
+
+		Sort the file in the ascending order.
+
+44. sort file.txt > sort1.txt
+
+		It will sort the file and save it in an another file.
+
+45. sort - r file.txt
+	
+		Display in the reverse order.
+
+   
